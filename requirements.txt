@@ -4,4 +4,8 @@ sqlalchemy
 alembic
 pydantic
 pytest
-httpx 
+httpx
+requests
+python-jose[cryptography]
+passlib[bcrypt]
+psycopg2-binary 
