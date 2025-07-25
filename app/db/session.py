@@ -1,6 +1,7 @@
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 from app.core.config import settings
+from app.models.refresh_token import RefreshToken
 
 # Use the new get_database_url method
 database_url = settings.get_database_url
